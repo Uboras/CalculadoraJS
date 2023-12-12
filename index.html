@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap">
+<script src="./index.js"></script>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="calculatora-toda">
+    <header>Calculadora by Hernán</header>
+    <main>
+      
+        <section class="calculadora-resultados">
+          <input type="text" id="pantalla-Resultados" readonly />
+        </section>
+        <section class="calculadora">
+         <article class="calculadora-borrar">
+          <input id="Bnt-Borrar" type="button" value="Borrar" onclick="borrar()" />
+          <input id="Bnt-borrarsolo" type="button" value="<-" onclick="borrarSolo()" />
+           </article>
+          <article class="calculadora-botonera">
+         
+          <input id="Bnt-tablero" type="button" value="7" onclick="agregar('7')" />
+          <input id="Bnt-tablero" type="button" value="8" onclick="agregar('8')" />
+          <input id="Bnt-tablero" type="button" value="9" onclick="agregar('9')" />
+          <input id="Bnt-tablero" type="button" value="x" onclick="agregar('*')" />
+          
+        
+          <input id="Bnt-tablero" type="button" value="4" onclick="agregar('4')" />
+          <input id="Bnt-tablero" type="button" value="5" onclick="agregar('5')" />
+          <input id="Bnt-tablero" type="button" value="6" onclick="agregar('6')" />
+          <input id="Bnt-tablero" type="button" value="-" onclick="agregar('-')" />
+         
+          <input id="Bnt-tablero" type="button" value="1" onclick="agregar('1')" />
+          <input id="Bnt-tablero" type="button" value="2" onclick="agregar('2')" />
+          <input id="Bnt-tablero" type="button" value="3" onclick="agregar('3')" />
+          <input id="Bnt-tablero" type="button" value="+" onclick="agregar('+')" />
+      
+          <input id="Bnt-tablero" type="button" value="0" onclick="agregar('0')" />
+          <input id="Bnt-tablero" type="button" value="." onclick="agregar('.')" />
+          <input id="Bnt-tablero" type="button" value="/" onclick="agregar('/')" />
+          <input id="Bnt-tablero" type="button" value="=" onclick="calcular()" />
+        
+            </article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>derechos reservados &copy; Hernan Manera</p>
+    </footer>
+    <div class="mostrar340">Agrandale!!</br> a la pantalla wey!! </br> No funciona </br>tan chiquito
+    </div>
+    <script src="calculadora.js"></script>
+  </body>
+</html>
